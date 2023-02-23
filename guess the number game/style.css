@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,400;0,900;1,600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Urbanist', sans-serif;
+}
+
+body{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+h3{
+    font-size: 1.7rem;
+    font-weight: 900;
+    word-break: break-all;
+}
+
+.sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid slateblue;
+    background-color: navajowhite;
+    border-radius: 12px;
+    padding: 1.3rem;
+    text-align: center;
+}
+
+.img{
+    padding: 1rem 0;
+    max-width: 250px;
+}
+h5{
+    font-size: 1.5rem;
+    padding: 10px 0;
+}
+.btns{
+    padding: 15px;
+    margin: 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: rgb(115, 0, 255);
+    color: aliceblue;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.btns:hover{
+    background-color: blueviolet;
+}
+
+
+.inp{
+    padding: 20px;
+    border: 1px solid lightgray;
+    background: transparent;
+    text-align: center;
+    outline: none;
+    margin: 12px;
+}
+
+
+.att{
+margin: 12px;
+}
+
+span{
+    font-size: 1.5rem;
+    padding: 12px;
+    font-weight: 900;
+}
+
+
+@media only screen and (max-Width : 600px){
+
+.sec{
+    height: 70vh;
+}
+h3{
+    font-size: 1.2rem;
+}
+h5{
+    font-size: 1rem;
+}
+
+.img{
+max-width: 200px;
+}
+
+.btns{
+    padding: 10px;
+    font-size: 0.8rem;
+}
+}
